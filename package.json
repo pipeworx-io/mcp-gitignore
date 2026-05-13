@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-gitignore",
+  "version": "0.1.0",
+  "description": "Canonical .gitignore templates from github/gitignore",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "gitignore"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-gitignore"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
