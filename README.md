@@ -1,16 +1,18 @@
-# mcp-gitignore
+# @pipeworx/gitignore
 
-gitignore MCP — github/gitignore templates.
+`.gitignore` templates from the canonical [github/gitignore](https://github.com/github/gitignore) repo. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `list_templates` | List all available .gitignore template names from github/gitignore. |
-| `get_template` | Fetch the raw .gitignore content for the named template (case-sensitive, e.g. "Node", "Python", "macOS"). |
-| `compose` | Compose a combined .gitignore from multiple templates, separated by headers. |
+- `list_templates()` — names of all available templates (Node, Python, etc.)
+- `get_template(name)` — raw `.gitignore` text for the given template
+- `compose(names[])` — concatenate multiple templates with headers (e.g. ["Node", "macOS", "VisualStudioCode"])
+
+## Data source
+
+Raw files from `https://raw.githubusercontent.com/github/gitignore/main/<Name>.gitignore` (and the `Global/` and `community/` subdirs).
 
 ## Quick Start
 
@@ -26,7 +28,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -50,7 +52,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
