@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gitignore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "gitignore MCP — github/gitignore templates.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f47d7af8e5589603dc3af59a282058da2baee8d381d4ce8a51faf9a2f4390de8",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-4b9465a3b76cdaba4fe1f52a5a9ef9dccf8eb1d6450e1ba38ff98d3c7395aebf",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
