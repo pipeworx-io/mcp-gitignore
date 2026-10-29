@@ -1,0 +1,45 @@
+[
+  {
+    "name": "list_templates",
+    "description": "List all available .gitignore template names from github/gitignore.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_template",
+    "description": "Fetch the raw .gitignore content for the named template (case-sensitive, e.g. \"Node\", \"Python\", \"macOS\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Template name without the .gitignore suffix."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "compose",
+    "description": "Compose a combined .gitignore from multiple templates, separated by headers.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "e.g. [\"Node\", \"macOS\", \"VisualStudioCode\"]"
+        }
+      },
+      "required": [
+        "names"
+      ]
+    }
+  }
+]
