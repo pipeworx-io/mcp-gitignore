@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gitignore",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "gitignore MCP — github/gitignore templates.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "gitignore",
     "gatewaySlug": "gitignore",
-    "sourceHash": "v1-ed6e4ef8a73b9beba1d5020f68d9f40d98d2784cffe898bf36f3f1b7379e52a4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-6f133e91c25d6c919814c71380cf9b858966f3b2fe22f314270ce4e214a749fc",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
